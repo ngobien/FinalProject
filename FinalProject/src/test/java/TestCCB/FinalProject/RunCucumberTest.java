@@ -12,11 +12,8 @@ import org.junit.runner.RunWith;
 				"src/test/resources/CucumberTest/MngtSub.feature"
 
 				},
-		//set output to html file
 		plugin = {"json:target/json-report/cucumber.json"},
-		//indicate the package contain step definition
 		glue = "StepDefinitions", 
-		//config to readable console
 		monochrome=true)
 public class RunCucumberTest {
 }
